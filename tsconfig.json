@@ -1,0 +1,31 @@
+// Try not to change the linter options or it may freak out with the fully commented out stories. It has been known to happen in the past.
+
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "noImplicitAny": true
+  },
+  "include": [
+    "src",
+    "ci/cf/jenkins/docs/stories/Problem-3456",
+    "ci/cf/jenkins/docs/stories/Problem-4-solution",
+    "ci/cf/jenkins/docs/stories/Problem-4-solution"
+  ]
+}
